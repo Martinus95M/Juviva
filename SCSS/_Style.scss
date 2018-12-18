@@ -355,14 +355,6 @@ footer {
   /* Media querie */
 
 @media screen and (min-width: 750px) {
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr 40% 60% 1fr;
-      }
-    .menu-toggle {
-    display: none;
-  }
-  
   .site-nav {
     display: inline;
     height: auto;
