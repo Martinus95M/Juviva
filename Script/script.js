@@ -13,4 +13,18 @@ $( document ).ready(function() {
     
   });
 
+  $(function() {
+    var selectedClass = "";
+		$("p").click(function(){
+		selectedClass = $(this).attr("data-rel");
+    $("#video").fadeTo(100, 0.1);
+		$("#video div").not("."+selectedClass).fadeOut();
+    setTimeout(function() {
+      $("."+selectedClass).fadeIn();
+      $("#video").fadeTo(500, 1);
+    }, 500);
+		
+	});
+});
+
 });
