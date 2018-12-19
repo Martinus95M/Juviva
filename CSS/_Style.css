@@ -593,6 +593,9 @@ header::after {
   display: block;
   text-align: center;
 }
+#sec-D .container-a .btnContainer:hover {
+  background: #ebcb65;
+}
 #sec-D .container-a .btnContainer p {
   color: #fff;
 }

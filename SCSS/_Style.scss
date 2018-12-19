@@ -617,6 +617,9 @@ background: #DEBE54;
       border-radius: 5px;
       display: block;
       text-align: center;
+      &:hover {
+        background: rgb(235, 203, 101);
+      }
       p {
         color: #fff;
       }
