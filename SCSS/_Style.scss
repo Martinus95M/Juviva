@@ -68,6 +68,9 @@ body {
       color: #fff;
       padding: 0.25em 0.2em;
       border-radius: 5px;
+      &:hover {
+        background: rgb(235, 203, 101);
+      }
     }
   }
   img {
@@ -130,7 +133,7 @@ header::after {
   border-top: 1px solid #fff;
 }
 
-.site-nav li:last-child {
+.site-nav li:nth-child(4) {
 background: #DEBE54;
 }
 
@@ -227,6 +230,9 @@ background: #DEBE54;
         background: #DEBE54;
         color: #fff;
         border-radius: 5px;
+        &:hover {
+          background: rgb(235, 203, 101);
+        }
       }
     }
   }
@@ -272,9 +278,9 @@ background: #DEBE54;
       width: 70%;
       padding: 0.5em;
       text-decoration: none;
-      }
-      .btnContainer:hover, .btnContainer:focus {
+      &:hover {
         background: rgb(235, 203, 101);
+      }
       }
     }
 
@@ -316,6 +322,9 @@ background: #DEBE54;
       margin: 10px auto;
       width: 70%;
       padding: 0.5em;
+      &:hover {
+        background: rgb(235, 203, 101);
+      }
     }
   }
 }
@@ -348,6 +357,13 @@ background: #DEBE54;
     #first {
       margin-top: 50px;
     }
+    a {
+      text-decoration: none;
+      color: #fff;
+      p {
+        color: #fff;
+      }
+    }
     .btnContainer {
       display: flex;
       justify-content: center;
@@ -357,13 +373,9 @@ background: #DEBE54;
       padding: 0.5em;
       margin-top: 20px;
       border-radius: 5px;
-      a {
-        text-decoration: none;
-        color: #fff;
-        p {
-          color: #fff;
-          margin-top: 0px;
-        }
+      text-decoration: none;
+      &:hover {
+        background: rgb(235, 203, 101);
       }
     }
   }
@@ -395,7 +407,14 @@ background: #DEBE54;
       color: #8DCCC7;
     }
     #first {
-      margin-top: 50px;
+      margin-top: 0;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+      p {
+        color: #fff;
+      }
     }
     .btnContainer {
       display: flex;
@@ -406,12 +425,9 @@ background: #DEBE54;
       padding: 0.5em;
       margin-top: 20px;
       border-radius: 5px;
-      a {
-        text-decoration: none;
-        color: #fff;
-        p {
-          color: #fff;
-        }
+      text-decoration: none;
+      &:hover {
+        background: rgb(235, 203, 101);
       }
     }
   }
@@ -426,7 +442,7 @@ background: #DEBE54;
     h1 {
       position: absolute;
       color: #fff;
-      margin-top: -150px;
+      margin-top: 100px;
       top: 180%;
       left: 50%;
       -ms-transform: translate(-50%, -50%);
@@ -443,7 +459,14 @@ background: #DEBE54;
       color: #8DCCC7;
     }
     #first {
-      margin-top: 50px;
+      margin-top: 0;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+      p {
+        color: #fff;
+      }
     }
     .btnContainer {
       display: flex;
@@ -454,12 +477,9 @@ background: #DEBE54;
       padding: 0.5em;
       margin-top: 20px;
       border-radius: 5px;
-      a {
-        text-decoration: none;
-        color: #fff;
-        p {
-          color: #fff;
-        }
+      text-decoration: none;
+      &:hover {
+        background: rgb(235, 203, 101);
       }
     }
   }
@@ -474,7 +494,7 @@ background: #DEBE54;
     h1 {
       position: absolute;
       color: #fff;
-      margin-top: -150px;
+      margin-top: 420px;
       top: 245%;
       left: 50%;
       -ms-transform: translate(-50%, -50%);
@@ -491,7 +511,14 @@ background: #DEBE54;
       color: #8DCCC7;
     }
     #first {
-      margin-top: 50px;
+      margin-top: 0;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+      p {
+        color: #fff;
+      }
     }
     .btnContainer {
       display: flex;
@@ -502,12 +529,9 @@ background: #DEBE54;
       padding: 0.5em;
       margin-top: 20px;
       border-radius: 5px;
-      a {
-        text-decoration: none;
-        color: #fff;
-        p {
-          color: #fff;
-        }
+      text-decoration: none;
+      &:hover {
+        background: rgb(235, 203, 101);
       }
     }
   }
@@ -591,6 +615,8 @@ background: #DEBE54;
       padding: 0.5em;
       margin-top: 30%;
       border-radius: 5px;
+      display: block;
+      text-align: center;
       p {
         color: #fff;
       }
@@ -727,7 +753,7 @@ background: #DEBE54;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     margin: 0 auto;
-    margin-top: -200px;
+    margin-top: -260px;
     background: #8DCCC7;
     padding: 1em;
     width: 80%;
@@ -743,7 +769,7 @@ background: #DEBE54;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 140px;
     background: #8DCCC7;
     padding: 1em;
     width: 80%;
@@ -805,7 +831,7 @@ footer {
       }
 
       a:hover {
-        background: #transparrent;
+        background: transparrent;
       }
 
       /* pop-up text */
@@ -882,7 +908,7 @@ footer {
     padding: 2em 0;
     .container {
       .logo {
-        width: 7%;
+        width: 6%;
       }
     }
   }
@@ -911,15 +937,15 @@ footer {
     border: none;
   }
 
-  .site-nav li:last-child {
+  .site-nav li:nth-child(4) {
     background: #DEBE54;
     border-radius: 5px;
   }
 
-  .site-nav li:last-child:hover {
+  .site-nav li:nth-child(4):hover {
     background: rgb(235, 203, 101);
   }
-  .site-nav li:last-child a:hover {
+  .site-nav li:nth-child(4) a:hover {
     color: #fff;
   }
 
@@ -1179,7 +1205,7 @@ footer {
       margin-top: -700px;
       padding: 1em;
       width: 80%;
-      max-height: 500px;
+      max-height: 400px;
       text-align: left;
     }
     .containerimg {
@@ -1256,8 +1282,11 @@ footer {
       -ms-transform: translate(0%, 0%);
       transform: translate(0%, 0%);
       margin: 0 auto;
-      margin-top: -700px;
+      margin-top: -500px;
       width: 60%;
+      p {
+        margin: 10px 0;
+      }
     }
     .container-b {
       grid-area: sec-b;
@@ -1267,8 +1296,11 @@ footer {
       -ms-transform: translate(0%, 0%);
       transform: translate(0%, 0%);
       margin: 0 auto;
-      margin-top: -500px;
+      margin-top: -650px;
       width: 60%;
+      h4 {
+        margin: 10px 0;
+      }
     }
   }
 
@@ -1328,6 +1360,9 @@ footer {
         color: #fff;
         margin: 5px;
       }
+      #first {
+        margin-top: 50px;
+      }
     }
   }
 
@@ -1356,6 +1391,9 @@ footer {
       p {
         color: #fff;
         margin: 5px;
+      }
+      #first {
+        margin-top: 50px;
       }
     }
   }
@@ -1386,10 +1424,14 @@ footer {
         color: #fff;
         margin: 5px;
       }
+      #first {
+        margin-top: 50px;
+      }
     }
   }
 
   footer {
+    z-index: 200;
     .logo {
       grid-area: logo;
     }

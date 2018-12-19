@@ -67,6 +67,9 @@ body {
   padding: 0.25em 0.2em;
   border-radius: 5px;
 }
+#headerIndex .container .button:hover {
+  background: #ebcb65;
+}
 #headerIndex img {
   width: 100%;
   height: auto;
@@ -125,7 +128,7 @@ header::after {
   border-top: 1px solid #fff;
 }
 
-.site-nav li:last-child {
+.site-nav li:nth-child(4) {
   background: #DEBE54;
 }
 
@@ -222,6 +225,9 @@ header::after {
   color: #fff;
   border-radius: 5px;
 }
+#sec-A .btnContainer a .btn:hover {
+  background: #ebcb65;
+}
 
 /* Section B */
 #sec-B .container img {
@@ -249,6 +255,7 @@ header::after {
 }
 #sec-B .container-a a {
   text-decoration: none;
+  background: #DEBE54;
   color: #fff;
 }
 #sec-B .container-a .btnContainer {
@@ -259,6 +266,9 @@ header::after {
   width: 70%;
   padding: 0.5em;
   text-decoration: none;
+}
+#sec-B .container-a .btnContainer:hover {
+  background: #ebcb65;
 }
 #sec-B .containerimg {
   background: #68A69F;
@@ -300,6 +310,9 @@ header::after {
   width: 70%;
   padding: 0.5em;
 }
+#sec-B .container-b .btnContainer:hover {
+  background: #ebcb65;
+}
 
 /* Section C */
 #sec-C .container h1 {
@@ -326,6 +339,13 @@ header::after {
 #sec-C .container-a #first {
   margin-top: 50px;
 }
+#sec-C .container-a a {
+  text-decoration: none;
+  color: #fff;
+}
+#sec-C .container-a a p {
+  color: #fff;
+}
 #sec-C .container-a .btnContainer {
   display: flex;
   justify-content: center;
@@ -335,14 +355,10 @@ header::after {
   padding: 0.5em;
   margin-top: 20px;
   border-radius: 5px;
-}
-#sec-C .container-a .btnContainer a {
   text-decoration: none;
-  color: #fff;
 }
-#sec-C .container-a .btnContainer a p {
-  color: #fff;
-  margin-top: 0px;
+#sec-C .container-a .btnContainer:hover {
+  background: #ebcb65;
 }
 
 #sec-C-1 .containerimg {
@@ -372,7 +388,14 @@ header::after {
   color: #8DCCC7;
 }
 #sec-C-1 .container-a #first {
-  margin-top: 50px;
+  margin-top: 0;
+}
+#sec-C-1 .container-a a {
+  text-decoration: none;
+  color: #fff;
+}
+#sec-C-1 .container-a a p {
+  color: #fff;
 }
 #sec-C-1 .container-a .btnContainer {
   display: flex;
@@ -383,13 +406,10 @@ header::after {
   padding: 0.5em;
   margin-top: 20px;
   border-radius: 5px;
-}
-#sec-C-1 .container-a .btnContainer a {
   text-decoration: none;
-  color: #fff;
 }
-#sec-C-1 .container-a .btnContainer a p {
-  color: #fff;
+#sec-C-1 .container-a .btnContainer:hover {
+  background: #ebcb65;
 }
 
 #sec-C-2 .containerimg {
@@ -402,7 +422,7 @@ header::after {
 #sec-C-2 .containerimg h1 {
   position: absolute;
   color: #fff;
-  margin-top: -150px;
+  margin-top: 100px;
   top: 180%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -419,7 +439,14 @@ header::after {
   color: #8DCCC7;
 }
 #sec-C-2 .container-a #first {
-  margin-top: 50px;
+  margin-top: 0;
+}
+#sec-C-2 .container-a a {
+  text-decoration: none;
+  color: #fff;
+}
+#sec-C-2 .container-a a p {
+  color: #fff;
 }
 #sec-C-2 .container-a .btnContainer {
   display: flex;
@@ -430,13 +457,10 @@ header::after {
   padding: 0.5em;
   margin-top: 20px;
   border-radius: 5px;
-}
-#sec-C-2 .container-a .btnContainer a {
   text-decoration: none;
-  color: #fff;
 }
-#sec-C-2 .container-a .btnContainer a p {
-  color: #fff;
+#sec-C-2 .container-a .btnContainer:hover {
+  background: #ebcb65;
 }
 
 #sec-C-3 .containerimg {
@@ -449,7 +473,7 @@ header::after {
 #sec-C-3 .containerimg h1 {
   position: absolute;
   color: #fff;
-  margin-top: -150px;
+  margin-top: 420px;
   top: 245%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -466,7 +490,14 @@ header::after {
   color: #8DCCC7;
 }
 #sec-C-3 .container-a #first {
-  margin-top: 50px;
+  margin-top: 0;
+}
+#sec-C-3 .container-a a {
+  text-decoration: none;
+  color: #fff;
+}
+#sec-C-3 .container-a a p {
+  color: #fff;
 }
 #sec-C-3 .container-a .btnContainer {
   display: flex;
@@ -477,13 +508,10 @@ header::after {
   padding: 0.5em;
   margin-top: 20px;
   border-radius: 5px;
-}
-#sec-C-3 .container-a .btnContainer a {
   text-decoration: none;
-  color: #fff;
 }
-#sec-C-3 .container-a .btnContainer a p {
-  color: #fff;
+#sec-C-3 .container-a .btnContainer:hover {
+  background: #ebcb65;
 }
 
 /* Section D */
@@ -562,6 +590,8 @@ header::after {
   padding: 0.5em;
   margin-top: 30%;
   border-radius: 5px;
+  display: block;
+  text-align: center;
 }
 #sec-D .container-a .btnContainer p {
   color: #fff;
@@ -683,7 +713,7 @@ header::after {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   margin: 0 auto;
-  margin-top: -200px;
+  margin-top: -260px;
   background: #8DCCC7;
   padding: 1em;
   width: 80%;
@@ -699,7 +729,7 @@ header::after {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 140px;
   background: #8DCCC7;
   padding: 1em;
   width: 80%;
@@ -761,7 +791,7 @@ footer .container .social-btn a {
   -webkit-font-smoothing: antialiased;
 }
 footer .container .social-btn a:hover {
-  background: #transparrent;
+  background: transparrent;
 }
 footer .container .social-btn a span {
   color: #666;
@@ -820,7 +850,7 @@ footer .container .social-btn a:nth-of-type(5):before {
     padding: 2em 0;
   }
   .header .container .logo {
-    width: 7%;
+    width: 6%;
   }
 
   .menu-toggle {
@@ -847,16 +877,16 @@ footer .container .social-btn a:nth-of-type(5):before {
     border: none;
   }
 
-  .site-nav li:last-child {
+  .site-nav li:nth-child(4) {
     background: #DEBE54;
     border-radius: 5px;
   }
 
-  .site-nav li:last-child:hover {
+  .site-nav li:nth-child(4):hover {
     background: #ebcb65;
   }
 
-  .site-nav li:last-child a:hover {
+  .site-nav li:nth-child(4) a:hover {
     color: #fff;
   }
 
@@ -1091,7 +1121,7 @@ footer .container .social-btn a:nth-of-type(5):before {
     margin-top: -700px;
     padding: 1em;
     width: 80%;
-    max-height: 500px;
+    max-height: 400px;
     text-align: left;
   }
   #sec-E .containerimg {
@@ -1158,8 +1188,11 @@ footer .container .social-btn a:nth-of-type(5):before {
     -ms-transform: translate(0%, 0%);
     transform: translate(0%, 0%);
     margin: 0 auto;
-    margin-top: -700px;
+    margin-top: -500px;
     width: 60%;
+  }
+  #sec-G .container-a p {
+    margin: 10px 0;
   }
   #sec-G .container-b {
     grid-area: sec-b;
@@ -1169,8 +1202,11 @@ footer .container .social-btn a:nth-of-type(5):before {
     -ms-transform: translate(0%, 0%);
     transform: translate(0%, 0%);
     margin: 0 auto;
-    margin-top: -500px;
+    margin-top: -650px;
     width: 60%;
+  }
+  #sec-G .container-b h4 {
+    margin: 10px 0;
   }
 
   .grid8 {
@@ -1225,6 +1261,9 @@ footer .container .social-btn a:nth-of-type(5):before {
     color: #fff;
     margin: 5px;
   }
+  #sec-C-1 .container-a #first {
+    margin-top: 50px;
+  }
 
   .grid10 {
     display: grid;
@@ -1250,6 +1289,9 @@ footer .container .social-btn a:nth-of-type(5):before {
   #sec-C-2 .container-a p {
     color: #fff;
     margin: 5px;
+  }
+  #sec-C-2 .container-a #first {
+    margin-top: 50px;
   }
 
   .grid11 {
@@ -1277,7 +1319,13 @@ footer .container .social-btn a:nth-of-type(5):before {
     color: #fff;
     margin: 5px;
   }
+  #sec-C-3 .container-a #first {
+    margin-top: 50px;
+  }
 
+  footer {
+    z-index: 200;
+  }
   footer .logo {
     grid-area: logo;
   }
