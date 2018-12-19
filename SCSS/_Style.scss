@@ -261,6 +261,7 @@ background: #DEBE54;
     }
     a {
       text-decoration: none;
+      background: #DEBE54;
       color: #fff;
     }
     .btnContainer {
@@ -272,8 +273,11 @@ background: #DEBE54;
       padding: 0.5em;
       text-decoration: none;
       }
+      .btnContainer:hover, .btnContainer:focus {
+        background: rgb(235, 203, 101);
+      }
     }
-  
+
   .containerimg {
     background: #68A69F;
     z-index: -1000;
@@ -666,44 +670,44 @@ background: #DEBE54;
   }
   .container-a {
     min-height: 680px;
-    #video { 
-      width:100%; 
+    #video {
+      width:100%;
       margin:20px 0px;
     }
-    .tile { 
-      float: left; 
-      min-height: 85px; 
-      max-height: 150px; 
-      width: 20%; 
-      margin: 10px; 
+    .tile {
+      float: left;
+      min-height: 85px;
+      max-height: 150px;
+      width: 20%;
+      margin: 10px;
     }
-    .tile:hover { 
-      opacity: 0.5; 
+    .tile:hover {
+      opacity: 0.5;
     }
-    .ryg { 
+    .ryg {
       background:#00C5CD;
     }
-    .skuldre { 
+    .skuldre {
       background: #CC3232;
     }
-    .Lænd { 
-      background: #ddd; 
+    .Lænd {
+      background: #ddd;
     }
     .nakke {
       background: #DEBE54;
     }
-    p{ 
-      padding:10px; 
-      text-decoration: none; 
-      text-transform:uppercase; 
-      font-size: 12px; 
-      color: #fff; 
-      display: inline-block; 
+    p{
+      padding:10px;
+      text-decoration: none;
+      text-transform:uppercase;
+      font-size: 12px;
+      color: #fff;
+      display: inline-block;
     }
-    p:hover { 
-      cursor:pointer; 
-      background: #8DCCC7; 
-      color:#fff; 
+    p:hover {
+      cursor:pointer;
+      background: #8DCCC7;
+      color:#fff;
     }
   }
 }
@@ -894,12 +898,12 @@ footer {
     background: transparent;
     float: right;
   }
-  
+
   .site-nav li {
     display: inline-block;
     border: none;
     margin-left: 1em;
-    margin-top: 20px; 
+    margin-top: 20px;
     padding: 0.5em;
   }
 
@@ -923,13 +927,13 @@ footer {
     color: #fff;
     padding: 0;
   }
-  
+
   .site-nav a:hover,
   .site-nav a:focus {
     background: transparent;
     color: #DEBE54;
   }
-  
+
   .site-nav--icon {
     display: none;
   }
@@ -956,7 +960,7 @@ footer {
     ;
   }
   #sec-A {
-    
+
     .container-a{
       grid-area: sec-a;
       display: flex;
@@ -1400,4 +1404,3 @@ footer {
     }
   }
 }
-
